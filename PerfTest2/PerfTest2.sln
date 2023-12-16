@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerfTest2", "PerfTest2.vcxproj", "{216AADE8-EA70-4959-AA08-9AC2A7AC28C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{216AADE8-EA70-4959-AA08-9AC2A7AC28C3}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{216AADE8-EA70-4959-AA08-9AC2A7AC28C3}.Debug|ARM64.Build.0 = Debug|ARM64
+		{216AADE8-EA70-4959-AA08-9AC2A7AC28C3}.Debug|x64.ActiveCfg = Debug|x64
+		{216AADE8-EA70-4959-AA08-9AC2A7AC28C3}.Debug|x64.Build.0 = Debug|x64
+		{216AADE8-EA70-4959-AA08-9AC2A7AC28C3}.Debug|x86.ActiveCfg = Debug|Win32
+		{216AADE8-EA70-4959-AA08-9AC2A7AC28C3}.Debug|x86.Build.0 = Debug|Win32
+		{216AADE8-EA70-4959-AA08-9AC2A7AC28C3}.Release|ARM64.ActiveCfg = Release|ARM64
+		{216AADE8-EA70-4959-AA08-9AC2A7AC28C3}.Release|ARM64.Build.0 = Release|ARM64
+		{216AADE8-EA70-4959-AA08-9AC2A7AC28C3}.Release|x64.ActiveCfg = Release|x64
+		{216AADE8-EA70-4959-AA08-9AC2A7AC28C3}.Release|x64.Build.0 = Release|x64
+		{216AADE8-EA70-4959-AA08-9AC2A7AC28C3}.Release|x86.ActiveCfg = Release|Win32
+		{216AADE8-EA70-4959-AA08-9AC2A7AC28C3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1FA4374-E114-4AC2-BD99-FAAF7948FCF7}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://daikon.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PerfTest2.vcxproj
+		SccLocalPath1 = .
+	EndGlobalSection
+EndGlobal

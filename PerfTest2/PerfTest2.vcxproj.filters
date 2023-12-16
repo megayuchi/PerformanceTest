@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{6e8bdd48-846b-4c04-850a-b4752f0d69ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArithmeticTest">
+      <UniqueIdentifier>{8c89d6cd-ce12-4cdc-87fe-ce6de155ec21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{e91d49db-b26c-4f00-ac64-c5cb2efedc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MathFunc">
+      <UniqueIdentifier>{e532f5c3-bbd1-46eb-9940-a7954451e1d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArithmeticTest.cpp">
+      <Filter>ArithmeticTest</Filter>
+    </ClCompile>
+    <ClCompile Include="MathFunc.cpp">
+      <Filter>MathFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryPerfCounter .cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessorInfo.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="ArithmeticTest.h">
+      <Filter>ArithmeticTest</Filter>
+    </ClInclude>
+    <ClInclude Include="MathFunc.h">
+      <Filter>MathFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="typedef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryPerfCounter.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessorInfo.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="HybridDetect.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="emul_x86_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="math.inl">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

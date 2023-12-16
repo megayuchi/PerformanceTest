@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{c6af08a0-8594-463c-9c4d-afddba919103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIMD_MATH">
+      <UniqueIdentifier>{250f6631-46b3-4602-8dcc-8ba66dd23d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{fa5b98ed-cd6d-46a8-9762-e1c18f4ad762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Result">
+      <UniqueIdentifier>{bf9b4464-510d-4d38-980a-78b4b6fd7594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArithmeticTest">
+      <UniqueIdentifier>{1df32578-cf6a-43d5-a894-52d98bd32c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MultiThreadTest">
+      <UniqueIdentifier>{bb151ab8-d134-4e28-855d-a1892dff013b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Entry">
+      <UniqueIdentifier>{30d3385f-96ca-4854-ae5c-061a6fdd3da2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMD_MATH.cpp">
+      <Filter>SIMD_MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryPerfCounter .cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ArithmeticTest.cpp">
+      <Filter>ArithmeticTest</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiThreadTest.cpp">
+      <Filter>MultiThreadTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessorInfo.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinLock.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="SIMD_MATH.h">
+      <Filter>SIMD_MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryPerfCounter.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ArithmeticTest.h">
+      <Filter>ArithmeticTest</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiThreadTest.h">
+      <Filter>MultiThreadTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessorInfo.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinLock.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="HybridDetect.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="result.txt">
+      <Filter>Result</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
