@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessorInfo.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryPerfCounter .cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiThreadTest.cpp">
+      <Filter>MultiThreadTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessorInfo.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryPerfCounter.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiThreadTest.h">
+      <Filter>MultiThreadTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="pch">
+      <UniqueIdentifier>{fe5c5a5c-f3e9-4b83-9995-aca8491557ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{cf578d1e-c130-47c3-a024-ff01a2331f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{3f5fa3ee-1119-4736-a566-a717c1d6e4d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MultiThreadTest">
+      <UniqueIdentifier>{694a56cd-704b-476e-afb9-3d467fb60223}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="asm_util_x64.asm">
+      <Filter>Util</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
